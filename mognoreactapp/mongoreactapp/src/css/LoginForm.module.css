@@ -1,0 +1,16 @@
+@keyframes slideInDown {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slideInDown {
+    animation-name: slideInDown;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
