@@ -54,7 +54,7 @@ function App() {
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', height: '100vh', translate: '25%' }}>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', width: '200px', backgroundColor: 'white', textAlign: 'center', marginRight: "100px"}}>
 
-            {isLoggedIn && username === "admin"? (
+            {isLoggedIn && username === "UserAdmin"? (
                 <>
               <Link to="/products" style={{width: '100%'}}>
                 <button style={{ width: '100%', background: 'linear-gradient(45deg, #4CAF50, #8BC34A)', color: 'white', border: 'none', borderRadius: '5px', padding: '10px 20px', margin: '5px 0', cursor: 'pointer' }}>
